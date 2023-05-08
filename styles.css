@@ -1,0 +1,31 @@
+body {background: white; vlink: gray;}
+
+p {font-family: Courier New; color: black; font-size: 15px; font-weight:200; text-align: left; line-height:1.75;}
+h1 {font-family: Courier New; color: black; font-size: 30px; text-align: left; font-weight:200;}
+h2 {font-family: Courier New; color: black; font-size: 25px; text-align: center; font-weight:200; text-decoration: underline;}
+h3 {font-family: Courier New; color: black; font-size: 12px; font-weight:200; text-align: left; line-height:1.25;}
+
+.iframe {
+    width: 100%;
+    object-fit: contain;
+}
+
+.sidebar {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: white; 
+  overflow-x: hidden; 
+  padding: 25px 8px 6px 36px;
+}
+
+
+.body  {
+  width: 65%;
+  padding-left: 30%;
+  padding-top: 50px;
+  padding-right: 20px;
+}
